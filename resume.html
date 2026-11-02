@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume – [Your Name]</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #222;
+      background: #fff;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+      line-height: 1.5;
+      font-size: 15px;
+    }
+    nav.site-nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 6px 20px;
+      padding: 24px 0 12px;
+      border-bottom: 1px solid #999;
+      font-size: 14px;
+    }
+    nav.site-nav .brand { margin-right: auto; color: #222; text-decoration: none; font-weight: bold; }
+    nav.site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; }
+    nav.site-nav a { color: #222; text-decoration: none; }
+    nav.site-nav a:hover { text-decoration: underline; }
+    nav.site-nav a[aria-current="page"] { text-decoration: underline; }
+    header { margin: 20px 0; }
+    h1 { font-size: 24px; margin: 0 0 4px; font-weight: normal; }
+    .contact { font-size: 13px; color: #555; }
+    a { color: #222; }
+    h2 {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 4px;
+      margin: 24px 0 10px;
+      font-weight: bold;
+    }
+    h3 { font-size: 15px; margin: 12px 0 2px; font-weight: bold; }
+    .meta { font-size: 13px; color: #555; margin-bottom: 4px; }
+    ul { margin: 4px 0 0 18px; padding: 0; }
+    li { margin-bottom: 3px; }
+    p { margin: 4px 0; }
+    .lang-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Primary">
+    <a class="brand" href="index.html">[Your Name]</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog/">Blog</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="resume.html" aria-current="page">Resume</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>[Your Name]</h1>
+    <div class="contact">
+      [City, Country] &nbsp;|&nbsp; [Email] &nbsp;|&nbsp; [Phone] &nbsp;|&nbsp;
+      <a href="[GitHub URL]">GitHub</a> &nbsp;|&nbsp; <a href="portfolio.html">Portfolio</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p>Self-taught developer focused on front-end web interfaces, mobile applications, and agent-based development workflows. Builds independent projects to learn by doing, with an emphasis on working code, clear structure, and reproducible setups.</p>
+  </section>
+
+  <section>
+    <h2>Independent Projects</h2>
+
+    <h3>Agentic Development</h3>
+    <p class="meta">Self-directed</p>
+    <ul>
+      <li>Designed and built AI agent workflows that break multi-step tasks into tool-using stages.</li>
+      <li>Experimented with prompt structure, tool integration, and output validation.</li>
+      <li>Documented approaches and failure cases to refine later iterations.</li>
+    </ul>
+
+    <h3>Front-End Projects with React and API Data</h3>
+    <p class="meta">Self-directed</p>
+    <ul>
+      <li>Built single-page applications in React that fetch, transform, and render data from third-party REST APIs.</li>
+      <li>Implemented component-based layouts, client-side routing, and loading and error states.</li>
+      <li>Managed asynchronous data flow and application state without external boilerplate where possible.</li>
+    </ul>
+
+    <h3>Mobile Projects with React Native</h3>
+    <p class="meta">Self-directed</p>
+    <ul>
+      <li>Developed cross-platform mobile applications using React Native and shared component logic.</li>
+      <li>Connected mobile interfaces to API data and handled device-level navigation and state.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Web:</strong> JavaScript, React, HTML, CSS, REST APIs, JSON</li>
+      <li><strong>Mobile:</strong> React Native</li>
+      <li><strong>Agentic Systems:</strong> Prompt design, tool use, workflow orchestration</li>
+      <li><strong>Systems:</strong> Linux (command line, shell scripting, configuration)</li>
+      <li><strong>Tools:</strong> Git, GitHub, code editors and terminal workflows</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <div class="lang-row"><span>Portuguese (Brazilian)</span><span>Native</span></div>
+    <div class="lang-row"><span>English</span><span>B1 (Self-taught)</span></div>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <p>Linux enthusiast: daily use of Linux, customizing system environments, and exploring open-source tools.</p>
+  </section>
+
+</body>
+</html>
