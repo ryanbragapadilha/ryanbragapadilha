@@ -3,90 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio – [Your Name]</title>
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      color: #222;
-      background: #fff;
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 0 20px 40px;
-      line-height: 1.5;
-      font-size: 15px;
-    }
-    nav.site-nav {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      gap: 6px 20px;
-      padding: 24px 0 12px;
-      border-bottom: 1px solid #999;
-      font-size: 14px;
-    }
-    nav.site-nav .brand { margin-right: auto; color: #222; text-decoration: none; font-weight: bold; }
-    nav.site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; }
-    nav.site-nav a { color: #222; text-decoration: none; }
-    nav.site-nav a:hover { text-decoration: underline; }
-    nav.site-nav a[aria-current="page"] { text-decoration: underline; }
-    header { margin: 20px 0; }
-    h1 { font-size: 24px; margin: 0 0 4px; font-weight: normal; }
-    .intro { font-size: 13px; color: #555; margin: 0; }
-    h2 {
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 4px;
-      margin: 24px 0 10px;
-      font-weight: bold;
-    }
-    h3 { font-size: 15px; margin: 0 0 2px; font-weight: bold; }
-    .meta { font-size: 13px; color: #555; margin: 0 0 4px; }
-    .stack { font-size: 13px; color: #555; margin: 4px 0 0; }
-    .links { font-size: 13px; margin: 4px 0 0; }
-    a { color: #222; }
-    p { margin: 4px 0; }
-    .entry {
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-      margin-bottom: 20px;
-    }
-    .thumb {
-      flex: 0 0 160px;
-      aspect-ratio: 16 / 9;
-      background: #e5e5e5;
-      border: 1px solid #ccc;
-    }
-    .entry-body { flex: 1; min-width: 0; }
-    @media (max-width: 560px) {
-      .entry { flex-direction: column; }
-      .thumb { flex: none; width: 100%; }
-    }
-  </style>
+  <title>Portfolio – Ryan</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="en" href="https://ryanbragapadilha.com/portfolio.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://ryanbragapadilha.com/pt-br/portfolio.html">
+  <link rel="alternate" hreflang="x-default" href="https://ryanbragapadilha.com/portfolio.html">
 </head>
 <body>
 
   <nav class="site-nav" aria-label="Primary">
-    <a class="brand" href="index.html">[Your Name]</a>
+    <a class="brand" href="index.html">Ryan</a>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="blog/">Blog</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
       <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
       <li><a href="resume.html">Resume</a></li>
     </ul>
   </nav>
 
   <header>
-    <h1>[Your Name]</h1>
+    <h1>Ryan</h1>
     <p class="intro">Portfolio of self-directed projects</p>
   </header>
 
   <section>
     <h2>Projects</h2>
 
-    <div class="entry">
+    <!-- <div class="entry">
       <div class="thumb" role="img" aria-label="Thumbnail placeholder: React website"></div>
       <div class="entry-body">
         <h3>The React Website</h3>
@@ -95,9 +38,9 @@
         <p class="stack"><strong>Stack:</strong> React, JavaScript, HTML, CSS, REST APIs</p>
         <p class="links"><a href="[Live URL]">Live site</a> · <a href="[Repository URL]">Source</a></p>
       </div>
-    </div>
+    </div> -->
 
-    <div class="entry">
+    <!-- <div class="entry">
       <div class="thumb" role="img" aria-label="Thumbnail placeholder: cross-platform app"></div>
       <div class="entry-body">
         <h3>The Cross-Platform App</h3>
@@ -106,9 +49,9 @@
         <p class="stack"><strong>Stack:</strong> React Native, JavaScript, REST APIs</p>
         <p class="links"><a href="[Repository URL]">Source</a></p>
       </div>
-    </div>
+    </div> -->
 
-    <div class="entry">
+    <!-- <div class="entry">
       <div class="thumb" role="img" aria-label="Thumbnail placeholder: Nand to Tetris capstone"></div>
       <div class="entry-body">
         <h3>Nand to Tetris: Self-Directed Capstone</h3>
@@ -117,9 +60,9 @@
         <p class="stack"><strong>Stack:</strong> Hardware Description Language, assembly, [Other languages used]</p>
         <p class="links"><a href="[Repository URL]">Source</a></p>
       </div>
-    </div>
+    </div> -->
 
-    <div class="entry">
+    <!-- <div class="entry">
       <div class="thumb" role="img" aria-label="Thumbnail placeholder: Linux configuration repository"></div>
       <div class="entry-body">
         <h3>Linux Configuration Repository</h3>
@@ -128,8 +71,17 @@
         <p class="stack"><strong>Stack:</strong> Bash, Git, [Editor / window manager]</p>
         <p class="links"><a href="[Repository URL]">Source</a></p>
       </div>
-    </div>
+    </div> -->
   </section>
+
+  <footer class="site-footer">
+    <p>© Ryan</p>
+    <nav class="lang-switch" aria-label="Language">
+      <a href="portfolio.html" lang="en" hreflang="en" aria-current="page">English</a>
+      <span aria-hidden="true">·</span>
+      <a href="pt-br/portfolio.html" lang="pt-BR" hreflang="pt-BR">Português</a>
+    </nav>
+  </footer>
 
 </body>
 </html>

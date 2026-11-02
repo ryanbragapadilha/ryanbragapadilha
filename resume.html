@@ -3,70 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Resume – [Your Name]</title>
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      color: #222;
-      background: #fff;
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 0 20px 40px;
-      line-height: 1.5;
-      font-size: 15px;
-    }
-    nav.site-nav {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      gap: 6px 20px;
-      padding: 24px 0 12px;
-      border-bottom: 1px solid #999;
-      font-size: 14px;
-    }
-    nav.site-nav .brand { margin-right: auto; color: #222; text-decoration: none; font-weight: bold; }
-    nav.site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; }
-    nav.site-nav a { color: #222; text-decoration: none; }
-    nav.site-nav a:hover { text-decoration: underline; }
-    nav.site-nav a[aria-current="page"] { text-decoration: underline; }
-    header { margin: 20px 0; }
-    h1 { font-size: 24px; margin: 0 0 4px; font-weight: normal; }
-    .contact { font-size: 13px; color: #555; }
-    a { color: #222; }
-    h2 {
-      font-size: 14px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 4px;
-      margin: 24px 0 10px;
-      font-weight: bold;
-    }
-    h3 { font-size: 15px; margin: 12px 0 2px; font-weight: bold; }
-    .meta { font-size: 13px; color: #555; margin-bottom: 4px; }
-    ul { margin: 4px 0 0 18px; padding: 0; }
-    li { margin-bottom: 3px; }
-    p { margin: 4px 0; }
-    .lang-row { display: flex; justify-content: space-between; margin-bottom: 4px; }
-  </style>
+  <title>Resume – Ryan</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="en" href="https://ryanbragapadilha.com/resume.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://ryanbragapadilha.com/pt-br/resume.html">
+  <link rel="alternate" hreflang="x-default" href="https://ryanbragapadilha.com/resume.html">
 </head>
-<body>
+<body class="resume">
 
   <nav class="site-nav" aria-label="Primary">
-    <a class="brand" href="index.html">[Your Name]</a>
+    <a class="brand" href="index.html">Ryan</a>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="blog/">Blog</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="resume.html" aria-current="page">Resume</a></li>
     </ul>
   </nav>
 
   <header>
-    <h1>[Your Name]</h1>
+    <h1>Ryan</h1>
     <div class="contact">
-      [City, Country] &nbsp;|&nbsp; [Email] &nbsp;|&nbsp; [Phone] &nbsp;|&nbsp;
-      <a href="[GitHub URL]">GitHub</a> &nbsp;|&nbsp; <a href="portfolio.html">Portfolio</a>
+      Nova Cantu - PR &nbsp;|&nbsp; ryanbragapadilha@tutamail.com &nbsp;|&nbsp;
+      <a href="https://github.com/ryanbragapadilha">GitHub</a> &nbsp;|&nbsp; <a href="portfolio.html">Portfolio</a>
     </div>
   </header>
 
@@ -123,6 +82,15 @@
     <h2>Interests</h2>
     <p>Linux enthusiast: daily use of Linux, customizing system environments, and exploring open-source tools.</p>
   </section>
+
+  <footer class="site-footer">
+    <p>© Ryan</p>
+    <nav class="lang-switch" aria-label="Language">
+      <a href="resume.html" lang="en" hreflang="en" aria-current="page">English</a>
+      <span aria-hidden="true">·</span>
+      <a href="pt-br/resume.html" lang="pt-BR" hreflang="pt-BR">Português</a>
+    </nav>
+  </footer>
 
 </body>
 </html>

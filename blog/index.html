@@ -3,47 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog – [Your Name]</title>
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      color: #222;
-      background: #fff;
-      max-width: 780px;
-      margin: 0 auto;
-      padding: 0 20px 40px;
-      line-height: 1.5;
-      font-size: 15px;
-    }
-    nav.site-nav {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      gap: 6px 20px;
-      padding: 24px 0 12px;
-      border-bottom: 1px solid #999;
-      font-size: 14px;
-    }
-    nav.site-nav .brand { margin-right: auto; color: #222; text-decoration: none; font-weight: bold; }
-    nav.site-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; }
-    nav.site-nav a { color: #222; text-decoration: none; }
-    nav.site-nav a:hover { text-decoration: underline; }
-    nav.site-nav a[aria-current="page"] { text-decoration: underline; }
-    header { margin: 20px 0; }
-    h1 { font-size: 24px; margin: 0 0 4px; font-weight: normal; }
-    .intro { font-size: 13px; color: #555; margin: 0; }
-    a { color: #222; }
-    .post { border-bottom: 1px solid #ddd; padding: 14px 0; }
-    .post:last-child { border-bottom: none; }
-    h2 { font-size: 16px; margin: 0 0 2px; font-weight: bold; }
-    .meta { font-size: 13px; color: #555; margin: 0 0 4px; }
-    p { margin: 4px 0; }
-  </style>
+  <title>Blog – Ryan</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="alternate" hreflang="en" href="https://ryanbragapadilha.com/blog/">
+  <link rel="alternate" hreflang="pt-BR" href="https://ryanbragapadilha.com/pt-br/blog/">
+  <link rel="alternate" hreflang="x-default" href="https://ryanbragapadilha.com/blog/">
 </head>
 <body>
 
   <nav class="site-nav" aria-label="Primary">
-    <a class="brand" href="../index.html">[Your Name]</a>
+    <a class="brand" href="../index.html">Ryan</a>
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="index.html" aria-current="page">Blog</a></li>
@@ -59,17 +28,20 @@
 
   <main>
     <article class="post">
-      <h2><a href="example-post.html">[Post Title]</a></h2>
-      <p class="meta">[Date] · [Tag]</p>
-      <p>[One-sentence summary.]</p>
-    </article>
-
-    <article class="post">
-      <h2><a href="example-post.html">[Post Title]</a></h2>
-      <p class="meta">[Date] · [Tag]</p>
-      <p>[One-sentence summary.]</p>
+      <h2><a href="local-youtube-playlist-manager/index.html">Local Youtube Playlist Manager</a></h2>
+      <p class="meta">Monday 02 November, 2026</p>
+      <p>This tool was created for those who want to keep a history of their playlists.</p>
     </article>
   </main>
+
+  <footer class="site-footer">
+    <p>© Ryan</p>
+    <nav class="lang-switch" aria-label="Language">
+      <a href="index.html" lang="en" hreflang="en" aria-current="page">English</a>
+      <span aria-hidden="true">·</span>
+      <a href="../pt-br/blog/index.html" lang="pt-BR" hreflang="pt-BR">Português</a>
+    </nav>
+  </footer>
 
 </body>
 </html>
